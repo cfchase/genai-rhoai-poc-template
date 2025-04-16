@@ -1,9 +1,0 @@
----
-apiVersion: ocs.openshift.io/v1
-kind: OCSInitialization
-metadata:
-  name: ocsinit
-  annotations:
-    argocd.argoproj.io/sync-wave: "0"
-spec:
-  enableCephTools: false
